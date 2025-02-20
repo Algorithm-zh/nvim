@@ -55,6 +55,7 @@ return {
 				theme = my_lualine_theme,
 			},
 			sections = {
+        lualine_c = {'filename', {'diagnostics', sources = {'nvim_lsp'}}},
 				lualine_x = {
 					{
 						lazy_status.updates,
